@@ -1,16 +1,17 @@
-Anonymous Repository for ICME 2026
+# Anonymous Repository for ICME 2026
 
 This repository contains the source code and experiment settings for **Feature-Shift-Aware Framework for Traffic Accident Detection in Surveillance Videos**. All identifying information has been removed to comply with the double-blind review policy.
 
-
-1. Environment Setup
+# 1. Environment Setup
 
 Create a clean environment:
-
 - conda create -n FSA python=3.7
 - conda activate FSA
 - pip install -r requirements.txt
-
-2. Training
-   python main.py
+# 2. Dataset
+   [SO-TAD: A Surveillance-Oriented Benchmark for Traffic Accident Detection](https://github.com/cccxy-299/so-tad)
+   [Real-world anomaly detection in surveillance videos](https://opendatalab.org.cn/OpenDataLab/UCF-Crime)
+# 3. Training
+   **For So-tad**:python main.py --dataset_root "path to SO-TAD"
+   **For UCF**:python main.py --tad_root "path to UCF"
 
