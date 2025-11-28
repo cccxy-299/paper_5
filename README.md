@@ -37,6 +37,13 @@ einops
 pyyaml
 
 3. Repository Structure
+4. 如果你愿意，我还能提供：
+
+- 自动生成目录树的 bash 脚本  
+- 适配 GitHub / GitLab 的显示版本  
+- 可折叠的目录结构（<details>）
+
+需要哪个？
 .
 ├── configs/            # Training, evaluation, and ablation configs
 ├── data/               # Dataset preparation scripts
