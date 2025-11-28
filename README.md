@@ -9,8 +9,9 @@ Create a clean environment:
 - conda activate FSA
 - pip install -r requirements.txt
 # 2. Dataset
-   [SO-TAD: A Surveillance-Oriented Benchmark for Traffic Accident Detection](https://github.com/cccxy-299/so-tad)
-   [Real-world anomaly detection in surveillance videos](https://opendatalab.org.cn/OpenDataLab/UCF-Crime)
+  SO-TAD dataset [SO-TAD: A Surveillance-Oriented Benchmark for Traffic Accident Detection](https://github.com/cccxy-299/so-tad)
+   
+   UCF dataset[Real-world anomaly detection in surveillance videos](https://opendatalab.org.cn/OpenDataLab/UCF-Crime)
 # 3. Training
    **For So-tad**:python main.py --dataset_root "path to SO-TAD"
    **For UCF**:python main.py --tad_root "path to UCF"
