@@ -14,5 +14,6 @@ Create a clean environment:
    UCF dataset[Real-world anomaly detection in surveillance videos](https://opendatalab.org.cn/OpenDataLab/UCF-Crime)
 # 3. Training
    **For So-tad**:python main.py --dataset_root "path to SO-TAD"
+   
    **For UCF**:python main.py --tad_root "path to UCF"
 
