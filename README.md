@@ -1,4 +1,4 @@
-# Anonymous Repository for ICME 2026
+# Paper_3 Repository
 
 This repository contains the source code and experiment settings for **Feature-Shift-Aware Framework for Traffic Accident Detection in Surveillance Videos**. All identifying information has been removed to comply with the double-blind review policy.
 
